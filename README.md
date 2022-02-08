@@ -12,9 +12,7 @@
 Everything for this project is inside glucose_data_analysis.ipynb notebook.
 
 ## Part 2: meal scoring tool
-My aim was to develop scoring tool that is sufficiently simple, but which has sufficiently low absolute error:
-<img src="https://latex.codecogs.com/svg.image?\bg_white&space;\frac{1}{n_data}\sum_{i=1}^{n_data}|y_{test,i}-y_{pred,i}|" title="\bg_white \frac{1}{n_data}\sum_{i=1}^{n_data}|y_{test,i}-y_{pred,i}|" />
-from the given scoring data.
+My aim was to develop scoring tool that is sufficiently simple, but which has sufficiently low absolute error from the given scoring data.
 
 - meal_scoring_tool.ipynb shows the modelling workflow
 - models/glucose_score.stan implements the ordered categorical regression model, from few basic statistics
